@@ -9,6 +9,8 @@ More of a proof of concept rather than anything practical. Training a 7x7 neural
 Nabbed the fraud payment data from the O'Reilly Machine Learning github, sampled it down to a few hundred rows so it can fit into the Pico's ram and trained it from there.
 There is a test function to ensure the network is training properly. It trains the network to create an XOR function and runs it against an assert battery. It works 90% of the time but due to the threshold that is set sometimes it fails due to it being 98% sure instead of 99%.
 
+---
+
 ## Tested with 
 * Raspberry Pi Pico W
 * Thonny 4.1.2
